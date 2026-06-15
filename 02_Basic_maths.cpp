@@ -34,7 +34,7 @@ for(int i=1;i<=n;i++){
     if(n%i==0 ){
         count++;
         if((n/i)!=i){
-            count++
+            count++;
         }
     }
     if(count == 2){
