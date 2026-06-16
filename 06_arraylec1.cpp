@@ -91,7 +91,7 @@ int remove_dulplicate_twopoint(int arr[],int n){
 }
 
 int main() {
-int arr[5]={10,10,10,80,10};
+int arr[5]={40,10,30,80,10};
 int n=sizeof(arr)/sizeof(int);
 cout<<"largest "<<largest(arr,n)<<endl;
 cout<<"seclargest "<<seclargest(arr,n)<<endl;
