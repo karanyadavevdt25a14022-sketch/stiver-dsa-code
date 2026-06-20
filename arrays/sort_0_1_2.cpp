@@ -65,22 +65,6 @@ int n=arr.size();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //  printarr(arr,n);  
 return  0;
 }
