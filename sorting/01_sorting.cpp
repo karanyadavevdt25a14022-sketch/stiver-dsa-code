@@ -131,3 +131,5 @@ for (int i =0; i < 6; i++)
 }
 return 0;
 }
+
+//weak topic quick sort  and insertion little bit;

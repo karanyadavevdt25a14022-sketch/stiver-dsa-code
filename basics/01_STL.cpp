@@ -149,7 +149,7 @@ for(auto x:s){
 //unorderdsets: unique but not in sorted format
 
 //maps : key-value pair data type,uniqe key with data pair in sorted order of keys not
-
+//Tc=nlogn
 map<int,int>mpp;
 mpp[1]=10; //{1,10},key is 1 and value is 10
 mpp.insert({2, 20});  //{{1,10},{2,20}} 
@@ -158,7 +158,7 @@ mpp.emplace(3,30); //{{1,10},{2,20},{3,30}}
 //traversal same as  vector;
 
 //mutimap : same key allowed , sorted order of keys 
-//unordersmap: uniqe but not sorted order of keys 
+//unordersmap: uniqe but not sorted order of keys , O(n)
 
 
 
