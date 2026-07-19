@@ -5,7 +5,7 @@
 // Optimal bS TC = log n
  class Solution {
 public:
-    int search(vector<int>& arr, int k) {
+    int search(vector <int>& arr, int k) {
         int n = arr.size();
         int low = 0 , high = n-1 ;
 
